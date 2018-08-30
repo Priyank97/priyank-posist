@@ -20,13 +20,13 @@ class TimeStamp{
 
 };
 
-struct GNode{
+//struct GNode{
 
- string name;
- string pass;
- string algo;
- float value;
-};
+ //string name;
+ //string pass;
+ //string algo;
+ //float value;
+//};
 
 struct ChildNode{
 
@@ -140,21 +140,7 @@ bool verification(string pass,string algo)
 
 int c=0;
 
-void longest(struct ChildNode* root,int &ma)
-{
-    	if(root==NULL)
-            return;
 
- 		   c++;
-
-    		for(int i=0; i<root->child.size(); i++)
-            {
-                longest(root->child[i],ma);
-            }
-
-    	if(c>ma)
-            ma=c;
-}
 
 void levels(struct ChildNode* root,int c,int &ma)
 {
