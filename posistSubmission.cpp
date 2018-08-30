@@ -20,13 +20,7 @@ class TimeStamp{
 
 };
 
-//struct GNode{
 
- //string name;
- //string pass;
- //string algo;
- //float value;
-//};
 
 struct ChildNode{
 
@@ -186,7 +180,7 @@ int main()
 
         if(num==1)
         {
-            //cout<<"hi";
+           
             getData(-1,headChildNodes);
         }
 
@@ -286,7 +280,7 @@ int main()
             struct ChildNode* first=all[nNum1];
             struct ChildNode* second=all[nNum2];
 
-            merge(first,second,headChildNodes);
+           
         }
 
     }
